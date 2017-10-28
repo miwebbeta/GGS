@@ -1,0 +1,347 @@
+/***
+  Theme Name: GGS 0
+  Theme URI: 
+  Author: Esther Ballester Gordillo
+  License: GNU General Public License
+*/
+
+
+/*Hoja estilo*/
+body{
+   font-stretch: extra-condensed;
+}
+body,a{
+  
+   color: black;
+   font-size: 14px;
+}
+
+.logo {
+    text-align: center;
+   
+}
+.logo img{
+   width: 15%; 
+   padding: 2%;
+}
+.page-galery{
+   
+}
+.site-main > p{
+    display: none;
+}
+.container-fluid{
+    padding: 0;
+}
+
+/*Menu */
+.menu-bar{
+    display:none;
+
+}
+
+.menu-bar .btn-default{
+ float: right;
+margin-right: 2%;
+margin-top: 9%;
+
+}
+.menu-bar button a{
+    font-size: 20px;
+}
+
+.page-navigation{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nav-menu{
+    background-color: white;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+#submenu{
+    padding-top: 20px;
+    display: none;
+    width: 80%
+        
+}
+#submenu li{
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+
+#menu-principal{
+    display: inline-block;
+}
+
+#menu-principal, #submenu {
+   
+    margin: 0 auto;
+    text-align: center;
+        
+}
+.nav > li > a{
+    padding: 10px 70px;
+}
+
+
+#submenu li a{
+    padding-left: 20px;
+
+padding-right: 20px;
+} 
+
+
+#menu-principal a{
+    font-size: 15px;
+   
+}
+#menu-principal.nav > li > a:hover,
+#menu-principal.nav > li > a:focus,
+.nav-idioma ul > li > a:hover,
+.nav-idioma ul > li > a:focus,
+.nav-idioma .current-lang:hover,
+.nav-idioma .current-lang:focus,
+.nav-menu nav-principal > li > a:hover
+.nav-menu nav-principal> li > a:focus,
+.nav > li > a:hover, .nav > li > a:focus,
+.nav > li > a:hover, .nav > li > a:hover
+{
+    background-color: transparent;
+    color: #805841;
+      font-weight: bold;
+}
+#menu-principal  li ul li a{
+    font-weight: normal;
+}
+
+
+.page-galery .boxImg span:hover,
+.page-galery .boxImg span:focus
+{
+     color: #805841;
+}
+
+
+.nav-idioma li a{
+    font-weight: 600;
+}
+
+
+
+.nav-menu .nav-principal  ul{
+    padding: 0;
+}
+
+.nav-menu .nav-principal  li  ul{
+    display: none;
+}
+
+
+ul, li {
+    list-style: none;
+}
+
+.nav-idioma{
+    float: right;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    top:0;
+}
+.nav-idioma #menu-idioma{
+    padding: 0;
+    float: right;
+  
+}
+
+.nav-idioma #menu-idioma li{
+    float:right;
+    padding: 10px;
+}
+
+
+
+/*Slider*/
+.caption-wrap h4,.caption-wrap h5 {
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: expanded;
+
+}
+.caption-wrap h4{
+    color: black;
+}
+
+/*Galeria*/
+
+.page-galery .center-block{
+    width: 70%;
+}
+
+
+.page-galery .boxImg{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.page-galery .boxImg .thumbnail{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.page-galery .boxImg .item-desc{
+    position: static  !important;
+    color: black  !important;
+    left:auto  !important;
+    right: auto  !important;
+    font-size: 15px  !important;
+    font-weight: 600  !important;
+}
+
+/* Template Single*/
+.single{
+    padding-left: 5%;
+     padding-right: 5%;
+     padding-top: 3%;
+}
+
+.single h4 {
+    text-align: center;
+    font-weight: 600;
+    color:#805841;
+    padding-bottom: 4%;
+}
+
+.single p{
+    font-size: 18px;
+    text-align: justify;
+    float: left;
+    width: 100%;
+    text-indent: 60px;
+}
+
+.single .filtr-container{
+    padding-top: 2%  !important;
+    padding-bottom: 2% !important;
+    max-height: 450px;
+}
+
+strong{
+    color:#805841;
+    font-weight: normal;
+}
+ 
+.single .boxImg{
+   
+    max-height: 473px;
+}
+
+.single img{
+   /* width: auto !important;
+    max-height: 473px !important;*/
+}
+
+.single .col-lg-4{
+    text-align: center;
+    padding-top: 3%;
+padding-bottom: 3%;
+
+}
+.single .lista p{
+   text-indent: 0;
+   padding-left: 40px;
+   padding-left: 10%;
+}
+
+.single .col-lg-4 img.img-ext{
+    width: 100%;
+height: auto;
+    
+}
+.single .col-lg-4 img.img-centro{
+    width: 58%;
+height: auto;
+padding-left: 0;
+padding-right: 0;
+}
+.single img.size-large{
+  width: 50%;
+text-align: center;
+display: block;
+margin: 0 auto;
+}
+
+
+
+@media (max-width:1427px){
+    .nav > li > a {
+
+    padding: 10px 30px;
+
+}
+  
+}  
+@media (max-width:1200px){
+    .nav > li > a {
+
+    padding: 10px 18%;
+
+}
+#submenu li a {
+
+    padding-left: 7px;
+    padding-right: 7px;
+
+}
+  
+}  
+
+
+
+@media (max-width: 992px){
+    .logo img{
+        width: 16%;
+    }
+     .nav > li > a {
+
+    padding: 10px 10%;
+
+}
+.nav > li{
+    width: 100%;
+}
+ .menu-bar{
+        display: block;
+    }
+    .page-navigation .nav-menu{
+        display: none;
+    }
+    .nav-menu .nav-principal li ul {
+    display: none;
+    text-align: center;
+}
+.sub-menu li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    
+    
+}
+@media (max-width: 768px){
+    .logo img {
+    width: 20%;
+}
+
+.caption-wrap h4 {
+                  
+    font-size: 2em;}
+   
+.page-galery .boxImg {
+    width: 70%;}
+}
